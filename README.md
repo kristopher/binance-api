@@ -12,6 +12,7 @@ Binance.config = {
 `
 
 ## Prices
+
 `
 Binance::MarketData.price('DOGEUSD')
 
@@ -25,6 +26,7 @@ Binance::MarketData::DOGEUSD.price
 `
 
 ## Wallet
+
 `
 Binance::Wallet.coins => [<DOGE>, <BTC>]
 `
