@@ -1,13 +1,12 @@
 require 'openssl'
 require 'logger'
+require 'active_support/all'
 require 'faraday'
 require 'faraday_middleware'
 require 'active_attr'
 require 'money'
 
 # https://github.com/binance-us/binance-official-api-docs/blob/master/rest-api.md
-
-BigDecimal.limit(8)
 
 module Binance
   class Error < Exception; end
