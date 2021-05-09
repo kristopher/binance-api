@@ -13,30 +13,16 @@ Binance.config = {
 
 ## Prices
 
-`
-Binance::MarketData.price('DOGEUSD')
+`Binance::MarketData.price('DOGEUSD')`
 
-  => 1.00
-`
-
-`
-Binance::MarketData::DOGEUSD.price
-
-  => 1.00
-`
+`Binance::MarketData::DOGEUSD.price`
 
 ## Wallet
 
-`
-Binance::Wallet.coins => [<DOGE>, <BTC>]
-`
+`Binance::Wallet.coins => [<DOGE>, <BTC>]`
 
 ## Spot Account
 
-`
-Binance::SpotAccount.create_order(...)
-`
+`Binance::SpotAccount.create_order(...)`
 
-`
-Binance::SpotAccount.get_order(...)
-`
+`Binance::SpotAccount.get_order(...)`
